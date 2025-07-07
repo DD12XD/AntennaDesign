@@ -1,0 +1,117 @@
+$begin 'DesignData'
+	Version=242
+	$begin 'PartsInfo'
+		Part(6, true, 'Box1', true, 'FR4_epoxy', 6, 8, 11, 10, 9, 7, 12, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(34, false, 'Rectangle1', true, 'vacuum', 1, 44, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(46, false, 'Rectangle2', true, 'vacuum', 1, 56, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(115, false, 'Rectangle7', true, 'vacuum', 1, 125, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(127, false, 'Rectangle8', true, 'vacuum', 1, 137, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(139, true, 'RadiatingSurface', true, 'vacuum', 6, 140, 142, 143, 144, 141, 145, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 255, 0, 0, false)
+	$end 'PartsInfo'
+	$begin 'FacesInfo'
+		Face(7, 6, 0.000884, 120, true, 0, 0, 0, -0, -0, 1, 4, 0.017, 0.013, 0, -0.017, 0.013, 0, -0.017, -0.013, 0, 0.017, -0.013, 0)
+		Face(8, 6, 0.000884, 120, true, 0, 0, -1.6, 0, 0, -1, 4, 0.017, 0.013, -0.0016, 0.017, -0.013, -0.0016, -0.017, -0.013, -0.0016, -0.017, 0.013, -0.0016)
+		Face(9, 6, 5.44e-05, 71.2, true, 0, -13, -0.8, 0, -1, 0, 4, -0.017, -0.013, -0.0016, 0.017, -0.013, -0.0016, 0.017, -0.013, 0, -0.017, -0.013, 0)
+		Face(10, 6, 4.16e-05, 55.2, true, -17, 0, -0.8, -1, -0, -0, 4, -0.017, 0.013, -0.0016, -0.017, -0.013, -0.0016, -0.017, -0.013, 0, -0.017, 0.013, 0)
+		Face(11, 6, 5.44e-05, 71.2, true, 0, 13, -0.8, -0, 1, -0, 4, 0.017, 0.013, -0.0016, -0.017, 0.013, -0.0016, -0.017, 0.013, 0, 0.017, 0.013, 0)
+		Face(12, 6, 4.16e-05, 55.2, true, 17, 0, -0.8, 1, 0, 0, 4, 0.017, -0.013, 0, 0.017, -0.013, -0.0016, 0.017, 0.013, -0.0016, 0.017, 0.013, 0)
+		Face(44, 34, 0.000884, 120, true, 0, 0, -1.6, -0, 0, 1, 4, -0.017, -0.013, -0.0016, 0.017, -0.013, -0.0016, 0.017, 0.013, -0.0016, -0.017, 0.013, -0.0016)
+		Face(56, 46, 9.1e-05, 89.2, true, -2.38286e-15, 0, 0, -0, -0, -1, 20, 0.017, -0.0015, 0, 0.007, -0.0015, 0, 0.007, -0.00035, 0, 0.002, -0.00035, 0, 0.002, -0.003, 0, -0.002, -0.003, 0, -0.002, -0.00035, 0, -0.007, -0.00035, 0, -0.007, -0.0015, 0, -0.017, -0.0015, 0, -0.017, 0.0015, 0, -0.007, 0.0015, 0, -0.007, 0.00035, 0, -0.002, 0.00035, 0, -0.002, 0.003, 0, 0.002, 0.003, 0, 0.002, 0.00035, 0, 0.007, 0.00035, 0, 0.007, 0.0015, 0, 0.017, 0.0015, 0)
+		Face(125, 115, 4.8e-06, 9.2, true, 17, 2.09948e-16, -0.8, -1, 6.12323e-17, 1.60812e-16, 4, 0.017, -0.0015, 0, 0.017, 0.0015, 6.66134e-19, 0.017, 0.0015, -0.0016, 0.017, -0.0015, -0.0016)
+		Face(137, 127, 4.8e-06, 9.2, true, -17, 1.24528e-16, -0.8, 1, -6.12323e-17, -1.60812e-16, 4, -0.017, 0.0015, 0, -0.017, -0.0015, -6.66134e-19, -0.017, -0.0015, -0.0016, -0.017, 0.0015, -0.0016)
+		Face(140, 139, 0.0128284, 453.333, true, 8.65439e-15, 0, 41.6667, 0, 0, 1, 4, 0.0586667, -0.0546667, 0.0416667, 0.0586667, 0.0546667, 0.0416667, -0.0586667, 0.0546667, 0.0416667, -0.0586667, -0.0546667, 0.0416667)
+		Face(141, 139, 0.0128284, 453.333, true, -8.65439e-15, 0, -43.2667, -0, -0, -1, 4, 0.0586667, -0.0546667, -0.0432667, -0.0586667, -0.0546667, -0.0432667, -0.0586667, 0.0546667, -0.0432667, 0.0586667, 0.0546667, -0.0432667)
+		Face(142, 139, 0.00996551, 404.533, true, 0, -54.6667, -0.8, -0, -1, -0, 4, 0.0586667, -0.0546667, 0.0416667, -0.0586667, -0.0546667, 0.0416667, -0.0586667, -0.0546667, -0.0432667, 0.0586667, -0.0546667, -0.0432667)
+		Face(143, 139, 0.00928604, 388.533, true, -58.6667, 0, -0.8, -1, -0, -0, 4, -0.0586667, -0.0546667, 0.0416667, -0.0586667, 0.0546667, 0.0416667, -0.0586667, 0.0546667, -0.0432667, -0.0586667, -0.0546667, -0.0432667)
+		Face(144, 139, 0.00996551, 404.533, true, 0, 54.6667, -0.8, 0, 1, 0, 4, -0.0586667, 0.0546667, 0.0416667, 0.0586667, 0.0546667, 0.0416667, 0.0586667, 0.0546667, -0.0432667, -0.0586667, 0.0546667, -0.0432667)
+		Face(145, 139, 0.00928604, 388.533, true, 58.6667, 0, -0.8, 1, 0, 0, 4, 0.0586667, 0.0546667, -0.0432667, 0.0586667, 0.0546667, 0.0416667, 0.0586667, -0.0546667, 0.0416667, 0.0586667, -0.0546667, -0.0432667)
+	$end 'FacesInfo'
+	$begin 'PartAddtionalPiecesInfo'
+		$begin 'Bodies'
+		$end 'Bodies'
+		$begin 'Faces'
+		$end 'Faces'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'DesignGeometryInfo'
+		ModelUnit='mm'
+		ModelerType=2
+		MinDimensionInModelUnits=1e-06
+		MaxDimensionInModelUnits=10000
+		GlobalCSID=1
+		RegionID=139
+		PreprocessForwardIdStart=166
+		PreprocessForwardIdEnd=166
+		PreprocessBackwardIdStart=2147483647
+		PreprocessBackwardIdEnd=2147483647
+	$end 'DesignGeometryInfo'
+	$begin 'Point3DDefinitionInfo'
+	$end 'Point3DDefinitionInfo'
+	$begin 'Plane3DDefinitionInfo'
+		Plane(-4, 'Global:XY', 1, -1, true, 121, 0, 0, 0, 0, 0, 1)
+		Plane(-3, 'Global:YZ', 1, -1, true, 7929968, 0, 0, 0, 1, 0, 0)
+		Plane(-2, 'Global:XZ', 1, -1, true, 0, 0, 0, 0, 0, 1, 0)
+	$end 'Plane3DDefinitionInfo'
+	$begin 'CoordinateSystemInfo'
+		CoordinateSystem(1, 'Global', -1, false, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+	$end 'CoordinateSystemInfo'
+	$begin 'ComponentDefinitionInfo'
+	$end 'ComponentDefinitionInfo'
+	$begin 'ComponentInstanceInfo'
+	$end 'ComponentInstanceInfo'
+	$begin 'GeometryEntityListOperationInfo'
+		$begin 'EntityList'
+			ID=2
+			Name='AllObjects'
+			$begin 'GeometryEntityListParameters'
+				EntityType='Object'
+				EntityList(6, 34, 46, 115, 127, 139)
+			$end 'GeometryEntityListParameters'
+		$end 'EntityList'
+	$end 'GeometryEntityListOperationInfo'
+	$begin 'MaterialManager'
+		$begin 'ProjectMaterials'
+			$begin 'FR4_epoxy'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=27
+						Green=110
+						Blue=76
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='4.4'
+				dielectric_loss_tangent='0.02'
+				thermal_conductivity='0.294'
+				mass_density='1900'
+				specific_heat='1150'
+				youngs_modulus='11000000000'
+				poissons_ratio='0.28'
+				thermal_expansion_coefficient='1.5e-05'
+			$end 'FR4_epoxy'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.95
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+			$end 'vacuum'
+		$end 'ProjectMaterials'
+		$begin 'InternalPrivateMaterials'
+		$end 'InternalPrivateMaterials'
+	$end 'MaterialManager'
+$end 'DesignData'
